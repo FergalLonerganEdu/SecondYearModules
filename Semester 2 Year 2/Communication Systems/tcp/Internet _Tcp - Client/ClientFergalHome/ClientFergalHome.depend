@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1429965002 source:c:\users\fergal\desktop\communication systems\tcp\internet _tcp - client\clientfergalhome\client.c
+	<stdio.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<conio.h>
+
+1429976524 source:c:\users\fergal\desktop\communication systems\tcp\internet _tcp - client\clientfergalhome\client-sam-copy.c
+	<stdio.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<conio.h>
+

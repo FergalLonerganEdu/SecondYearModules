@@ -1,0 +1,16 @@
+{
+    "contents" : "pulse <- read.table(\"Pulse.txt\", header = TRUE)\npulse <- data.frame(pulse)\nsummary(pulse$pulse1)\nsummary(pulse)\nmean(pulse$pulse1)\nmedian(pulse$pulse1)\nmode(pulse$pulse1)\nmin(pulse$pulse1)\nmax(pulse$pulse1)\nmean(pulse$pulse2)\nmedian(pulse$pulse2)\nmin(pulse$pulse2)\nmax(pulse$pulse2)\nsummary(pulse$pulse2[pulse$ran == 1])\nsummary(pulse$pulse2[pulse$ran == 2])\nhist(pulse$pulse1)\nhist(pulse$pulse2)\nhist(pulse$pulse2, xlab = \"Pulse\", main = \"Histogram of Pulse Rate\")\nhist(pulse$pulse1, xlab = \"Pulse\", main = \"Histogram of Pulse Rate\")\npulse\nhist(pulse$weight[pulse$sex==2])\nhist(pulse$weight[pulse$sex==2], xlab = \"weight\", main = \"Histogram of weights of Female volunteers\")\nbarplot(table(pulse$sex))\nbarplot(table(pulse$sex), xlab = \"men = 1, women = 2\", ylab = \"frequency\", main = \"barchart of amount of men vs women in study\")\nboxplot(pulse$pulse1, pulse$pulse2, names=colnames(pulse)[1:2])\nboxplot(pulse$pulse1, pulse$pulse2, names=colnames(pulse)[1:2],xlab = \"pulse. before exercise = 1, after exercise = 2\", ylab = \"frequency\", main = \"boxplot of pulse before and after exercise\")\n",
+    "created" : 1429633066939.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "589814456",
+    "id" : "6A63FCFB",
+    "lastKnownWriteTime" : 1429385582,
+    "path" : "C:/Users/fergal/Desktop/Statistics and Probability/Lab 1/Rscript LAB1.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

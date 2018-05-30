@@ -1,0 +1,17 @@
+{
+    "contents" : "# Q2 a\npnorm(4,mean =3, sd = 2)\n\n#Q2 b\na<-pnorm(3.5,mean =3, sd = 2)\nb<-pnorm(2.5,mean =3, sd = 2)\na-b\n\n#Q2 c\nc<-pnorm(2, mean =3, sd=2)\nd<- 1-c\n1-pbinom(q=1,size=3,prob=d,lower.tail=T)\n\n#Q3 a \ncoinA <- c(2:3,2:3)\ncoinB <- sort(coinA, decreasing = FALSE)\ntwo <- data.frame(coinA, coinB)\ntwo$sum <- two$coinA + two$coinB\ncounts <- table(two$sum)\ncounts <- data.frame(counts)\ncounts$prob <- counts$Freq / 4\ncounts$prob\ncounts\n\n#Q3 b\nsummary(two$sum)\nsd(two$sum)\nmean(two$sum)\n\n#Q4 a\ntime <- c(15.1,16.2,15.7,16.1,16.6,14.9,15.5,15.6,14.3,13.9,13.8,13.6,14.5,13.8,14.1,14.9)\ngender <- c(1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2)\ntable <- data.frame(gender,time)\ntable\n\n#Q4 b\nsummary(time)\nsummary(table$time[table$gender == 1])\nsummary(table$time[table$gender == 2])\n\n#Q4c\nhist(table$time[table$gender == 1], breaks=5)\nhist(table$time[table$gender == 2], breaks=5)\n",
+    "created" : 1429627691117.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "568814106",
+    "id" : "4F393825",
+    "lastKnownWriteTime" : 1429652732,
+    "path" : "C:/Users/fergal/Desktop/Statistics and Probability/Sem II Rlab exam/Rlab exam 2010/Rscript Lab exam 2010.R",
+    "project_path" : "Rscript Lab exam 2010.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

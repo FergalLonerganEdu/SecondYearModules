@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1430225413 source:c:\users\fergal\desktop\server done with repeat\server.c
+	<stdio.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<conio.h>
+

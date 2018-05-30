@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1429894538 source:e:\internet &tcp - client\client.c
+	<stdio.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<conio.h>
+
+1429965002 source:c:\users\fergal\desktop\communication systems\tcp\internet _tcp - client\client.c
+	<stdio.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<conio.h>
+

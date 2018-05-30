@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1429976524 source:c:\users\fergal\desktop\communication systems\tcp\fcserver\serverfergalhome\serverfidayeve.c
+	<stdio.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<conio.h>
+

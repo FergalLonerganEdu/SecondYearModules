@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1430085064 source:c:\users\fergal\desktop\communication systems\tcp\workingtcp\client\client (working).c
+	<stdio.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<conio.h>
+
+1430159645 source:c:\users\fergal\desktop\communication systems\tcp\workingtcp\client\clientsunday monday.c
+	<stdio.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<conio.h>
+
+1430180593 source:c:\users\fergal\desktop\communication systems\tcp\workingtcp\client\clientsunday monday (2).c
+	<stdio.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<conio.h>
+
+1430180593 source:c:\users\fergal\desktop\communication systems\tcp\workingtcp\client\client.c
+	<stdio.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<conio.h>
+
+1430217567 source:c:\users\fergal\desktop\communication systems\tcp\final tcp\client\client.c
+	<stdio.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<conio.h>
+

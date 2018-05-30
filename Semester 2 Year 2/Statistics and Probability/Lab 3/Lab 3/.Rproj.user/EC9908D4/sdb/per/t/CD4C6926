@@ -1,0 +1,17 @@
+{
+    "contents" : "norm_samp <- rnorm(1000, mean=0, sd=1)\nhist(norm_samp, breaks = 30)\npnorm(1.2, mean = 0, sd = 1)\npnorm(0.6, mean = 0, sd = 1)\nareaBetween0.6_2.1 <- (pnorm(1.2, mean = 0, sd = 1) - pnorm(0.6, mean = 0, sd = 1))\n\n#elephants trunks\narea1 <- pnorm(2.1, mean = 1.8, sd = 0.4)\narea2 <- pnorm(1.6, mean = 1.8, sd = 0.4)\nareaBetweenA1_A2 <- (pnorm(2.1, mean = 1.8, sd = 0.4) - pnorm(1.6, mean = 1.8, sd = 0.4))\nAreaBetweenA1_A2 <- (area1-area2)\n\n#\nvariables <- read.table(\"variables.txt\", header = TRUE)\nvariables <- data.frame(variables)\nsummary(variables$var1)\nsd(variables$var1, na.rm = FALSE)\nnorm_samp_var1 <- rnorm(300, mean=20.29, sd=4.917031)\nhist(variables, breaks = 100)\nhist(variables$var1, breaks = 100)\n\nsummary(variables$var2)\nsd(variables$var2, na.rm = FALSE)\nnorm_samp_var2 <- rnorm(300, mean=20.08, sd=19.91025)\nhist(norm_samp_var2, breaks = 100)\nhist(variables$var2, breaks = 100)\n\n#ipad\nsamp_exp_ipad <- rexp(1000, rate=0.25)\nhist(samp_exp_ipad, breaks = 100)\npexp(5, rate=0.25)\nipadLess_than_8 <- pexp(8, rate=0.2)\nipadLess_than_6 <- pexp(6, rate=0.2)\nipadBetween6_8 <- (ipadLess_than_8 - ipadLess_than_6)\nipadBetween6_8\n\nrweibull(1000, shape=1.5, scale=2)\nhist(rweibull(1000, shape=1.5, scale=2))\nsmartphone_prob_lessTHAN3 <- pweibull(3, shape=1.5, scale = 2, lower.tail = T, log.p = F)\n1-smartphone_prob_lessTHAN3\n\nxbar <- mean(variables[, 1])\ns <- sd(variables[, 1])\nz <- qnorm(0.90)\nn <- length(variables[, 1])\nlower <- xbar - z*(s/sqrt(n))\nupper <- xbar + z*(s/sqrt(n))\nlower\nupper\nxbar\n",
+    "created" : 1429442330226.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "734233252",
+    "id" : "CD4C6926",
+    "lastKnownWriteTime" : 1429622173,
+    "path" : "C:/Users/fergal/Desktop/Statistics and Probability/Lab 3/Lab 3/Rscript Lab3.R",
+    "project_path" : "Rscript Lab3.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

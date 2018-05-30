@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1429892764 source:c:\documents and settings\lab\my documents\codeblocks\serverfidayeve.c
+	<stdio.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<conio.h>
+
+1429900004 source:c:\users\conor_000\documents\semester 2\communication systems\tcp\serverfidayeve.c
+	<stdio.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<conio.h>
+
+1429965373 source:c:\users\fergal\desktop\communication systems\tcp\fcserver\textserver.c
+	<stdio.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<conio.h>
+

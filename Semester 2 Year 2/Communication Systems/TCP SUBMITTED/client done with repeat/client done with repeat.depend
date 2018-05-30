@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1430225721 source:c:\users\fergal\desktop\client done with repeat\client.c
+	<stdio.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<conio.h>
+

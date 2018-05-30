@@ -1,0 +1,44 @@
+Circuit: * C:\Users\fergal\Desktop\Electronic Circuits\lab 3\lab 3.asc
+
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- MOSFET Transistors ---
+Name:          m1
+Model:        bs170
+Id:          1.24e-04
+Vgs:         2.14e+00
+Vds:         8.13e+00
+Vbs:         0.00e+00
+Vth:         2.22e+00
+Vdsat:       7.90e-02
+Gm:          1.52e-03
+Gds:         2.28e-06
+Gmb:         9.93e-05
+Cbd:         2.99e-11
+Cbs:         0.00e+00
+Cgsov:       2.80e-11
+Cgdov:       2.00e-12
+Cgbov:       1.00e-14
+Cgs:         6.73e-14
+Cgd:         0.00e+00
+Cgb:         1.86e-14
+
+
+
+Date: Thu Apr 16 16:47:55 2015
+Total elapsed time: 0.078 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 9
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 9
+fillins = 0
+solver = Normal
+Matrix Compiler1: 394 bytes object code size
+Matrix Compiler2: 667 bytes object code size
+

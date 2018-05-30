@@ -1,0 +1,17 @@
+{
+    "contents" : "runner <- c(1,2,3,4,5,6)\nclub <- c(\"A\",\"A\",\"A\",\"B\",\"B\",\"B\")\nRace_1 <- c(114.53,111.35,114.66,113.82,111.24,105.38)\nRace_2 <- c(110.14,111.41,111.99,117.21,112.29,107.60)\nrunners <- data.frame(runner,club, Race_1, Race_2)\nrunners\navg <- ((runners$Race_1 + runners$Race_2)/2)\nrunners <- data.frame(runner,club, Race_1, Race_2,avg)\nrunners\navg\nmean(runners$Race_1[runners$club==\"A\"])\nmean(runners$Race_1[runners$club==\"B\"])\nsd(runners$Race_1[runners$club==\"A\"])\nsd(runners$Race_1[runners$club==\"B\"])\n\ndata(lynx)\nm =mean(lynx)\nsd = sd(lynx)\nlynx\nA <- qnorm(p = 0.005, mean = m , sd = sqrt(sd))\nB <- qnorm(p = 0.995, mean = m , sd = sqrt(sd))\nA\nB\nB-A\n\n\n\nproduction <- read.table(\"Production.txt\")\nproduction <- data.frame(production)\nproduction\n\nunits <- (production$X)\neuro <- (production$Y)\nproduction\n\nproduction <- data.frame(units, euro)\nproduction\n\ncor(production$units, production$euro)\n\nreg <- lm(euro ∼ units, data=production)\nsummary(reg)\n\n\npredict(reg, data.frame(units=580))\n\nl=1/4\n\na<-ppois(q=1,lambda=l/2)\nb<- ppois(q=3,lambda=(3*l)/4)\nb-a\nc<-ppois(q=2,lambda=l)\nd<-ppois(q=1,lambda=l)\nvector1 <- c(a,b,c,d)\nbarplot(vector1)\n",
+    "created" : 1429636566144.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "519670938",
+    "id" : "57C7CA9B",
+    "lastKnownWriteTime" : 7596562542728736626,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

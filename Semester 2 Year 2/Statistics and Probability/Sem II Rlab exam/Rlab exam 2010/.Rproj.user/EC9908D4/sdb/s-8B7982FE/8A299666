@@ -1,0 +1,16 @@
+{
+    "contents" : "green <- c(1:6, 1:6, 1:6, 1:6, 1:6, 1:6)\ngreen<-rep(1:6, times=6)\nred <- sort(green, decreasing = FALSE)\nred <- rep(1:6, times=rep(6,6))\ndice <- data.frame(red, green)\ndice$sum <- dice$red + dice$green\ncounts <- table(dice$sum)\ncounts <- data.frame(counts)\ncounts$prob <- counts$Freq / 36\n\nsample50 <- sample(dice$sum, 50, replace = TRUE)\nprob50_table <- table(sample50)\nprob50 <- data.frame(prob50_table)\nprob50$relfreq <- prob50$Freq/50\nprob50\n\nsample500 <- sample(dice$sum, 500, replace = TRUE)\nprob500_table <- table(sample500)\nprob500 <- data.frame(prob500_table)\nprob500$relfreq <- prob500$Freq/500\nprob500\n\nbin_samp <- rbinom(n=1, size=100, prob=0.55)\ndbinom(x=58, size=100, prob=0.55 )\npbinom(q=58, size=100, prob=0.55, lower.tail=TRUE)\npbinom(q=58, size=100, prob=0.55, lower.tail=FALSE)\n\ndhyper(x=6, m=6, n=39, k=6)\n# Look up the help files to see what x, m, n and k are.\nlotto <- rhyper(nn=8320, m=6, n=39, k=6)\ntable(lotto)\nbarplot(table(lotto))\nbarplot(table(lotto),xlab = \"matches\", ylab = \"frequency\", main = \"barchart of lotto results from 100000000 attempts\")\n\nrpois(n=7, lambda=90000)\nsum(rpois(n=7, lambda=90000))\nrevenue <- (rpois(n=7, lambda=90000) * 2.1)\nppois(q=89000, lambda=90000)\ndpois(x=89000, lambda=90000)\n\n",
+    "created" : 1429633056071.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3251223831",
+    "id" : "8A299666",
+    "lastKnownWriteTime" : 1429396615,
+    "path" : "C:/Users/fergal/Desktop/Statistics and Probability/Lab 2/Lab2/RScript Lab2.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

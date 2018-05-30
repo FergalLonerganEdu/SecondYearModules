@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1430084993 source:c:\users\fergal\desktop\communication systems\tcp\workingtcp\server\server (working).c
+	<stdio.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<conio.h>
+
+1430182164 source:c:\users\fergal\desktop\communication systems\tcp\workingtcp\server\serversunday monday.c
+	<stdio.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<conio.h>
+
+1430189130 source:c:\users\fergal\desktop\communication systems\tcp\workingtcp\server\server.c
+	<stdio.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<conio.h>
+
+1430215712 source:c:\users\fergal\desktop\communication systems\tcp\final tcp\server\server.c
+	<stdio.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<conio.h>
+
